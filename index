@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Mundiñol Shop Barcelona</title>
+<link rel="shortcut icon" href="https://magradacatalunya.com/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
+<meta name="keywords" content="barcelona collar, barcelona piedra, piedras preciosas" />
+<meta name="description" content="Ping Divina hace collares artesanales con piedras naturales. ¡Pásate a ver sus creaciones cuando quieras! También puedes comprarlos online." />
+<meta property="og:site_name" content="Mundiñol Shop Barcelona" />
+<meta property="og:title" content="Mundiñol Shop Barcelona" />
+<meta property="og:url" content="https://mundinyol.neocities.org/collares.html" />
+<meta property="og:image" content="https://mundinyol.neocities.org/collar.JPG" />
+<meta property="og:description" content="Ping Divina makes handmade necklaces with natural stones. Pop by and check out her creations whenever you fancy! You can also buy them online." />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@ping_jiao" />
+<meta name="twitter:title" content="Mundiñol Shop Barcelona"/>
+<meta name="twitter:description" content="Ping Divina makes handmade necklaces with natural stones. Pop by and check out her creations whenever you fancy! You can also buy them online."/>
+<meta name="twitter:image" content="https://mundinyol.neocities.org/collar.JPG" />
+
+
+<style>
+
+/* Mundiñol Shop ココカラ */
+
+.slideshow-container {
+    width: 98%;
+    
+    aspect-ratio: 5 / 3;  /* 縦横比を 5:3（500px x 300px）に設定 */
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+    border: 1px solid #ffd1ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+
+.slideshow-container2 {
+    width: 90%;
+    
+    aspect-ratio: 3 / 3;  /* 縦横比を 3:3（300px x 300px）に設定 */
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+    border: 1px solid #ffd1ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+    .controls {
+    display: flex;
+    justify-content: center;
+    gap: 7px;  /* ボタンの間隔 */
+    margin-top: 10px;
+}
+
+.controls button {
+    padding: 8px 15px;
+    font-size: 11px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.controls button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+#controlButton {
+            padding: 8px 15px;
+            font-size: 11px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #controlButton2:hover {
+            background-color: #0056b3;
+        }
+
+/* Mundiñol Shop ココマデ */
+
+</style>
+
+
+<style type="text/css">
+<!--
+
+h1,h2 {font-family: 'Irish Grover', cursive; color: #ff7f00; }
+
+p {line-height:160%;}
+
+
+/* PC 3列 スマホ1列の table */
+
+.tbl-r02 td {
+  border: border:0
+  padding: 1px;
+}
+
+.flexbox {
+     display: flex;
+ }
+ .box1 {
+     width: 50%;
+     margin: auto;
+ }
+ .box2 {
+     width: 50%;
+     margin: auto .5rem;
+ }
+
+
+@media screen and (max-width: 767px) {
+     .flexbox {
+         display: block;
+     }
+     .flexbox .box1 {
+         width: 100%;
+         margin: 0 auto;
+     }
+     .flexbox .box2 {
+         width: 100%;
+         margin: 0 auto;
+     }
+ }
+
+
+ 
+@media screen and (max-width: 700px) {
+  .last td:last-child {
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+  }
+  .tbl-r02 {
+    width: 80%;
+  }
+  .tbl-r02 td {
+    border-bottom: none;
+    display: block;
+    width: 100%;
+  }
+}
+
+.square_btn{
+    position: relative;
+    display: inline-block;
+    font-weight: normal;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #4267b2;
+    transition: .4s;
+  }
+
+.square_btn:hover {
+    background: #00bcd4;
+    color: white;
+ }
+
+.adsquare_btn {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #fd9535;/*背景色*/
+    border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
+    border-radius: 4px;/*角の丸み*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+
+.adsquare_btn:active {
+    border-bottom: solid 2px #fd9535;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+body {text-align:justify; -webkit-text-size-adjust: 100%;}
+
+a { 
+	text-decoration: none;
+	word-wrap: break-word;
+	/*\*/
+	overflow: hidden;	/* for Fx */
+	/**/
+}
+
+a:link, 
+a:active {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+
+a:focus,
+a:hover {
+	color: red;
+
+}
+
+iframe.my-gbook{
+	height: 1200px;
+	width: 100%;
+	border: none;
+	margin: 0;
+	overflow-y: scroll;
+}
+iframe.my-gbook::-webkit-scrollbar{
+  display: none;
+}
+iframe.my-gbook{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+/*--------------------------------------------------
+	You Tube ビデオ
+--------------------------------------------------*/
+
+.movie-wrap {
+     position: relative;
+     padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+     height: 0;
+     overflow: hidden;
+}
+ 
+.movie-wrap iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 98%;
+     height: 98%;
+max-width:600px;
+}
+
+
+/* パソコンで見たときは"pc-menu"のclassがついた画像が表示される */
+.pc-menu { display: block !important; }
+.sp-menu { display: none !important; }
+/* スマートフォンで見たときは"sp-menu"のclassがついた画像が表示される */
+@media only screen and (max-width: 740px) {
+.pc-menu { display: none !important; }
+.sp-menu { display: block !important; }
+}
+
+
+-->
+</style>
+
+<SCRIPT language='JavaScript'>
+<!-----
+function linkIt(theField) {
+	var winTarget = "_top";
+	open(theField[theField.selectedIndex].value, winTarget);
+}
+
+
+function show(inputData){
+    var objID=document.getElementById( "layer_" + inputData );
+    var buttonID=document.getElementById( "category_" + inputData );
+    if(objID.className=='close') {
+        objID.style.display='block';
+        objID.className='open';
+    }else{
+        objID.style.display='none';
+        objID.className='close';
+    }
+}
+
+
+//----->
+</script>
+
+
+
+</head>
+
+<body>
+
+<div style="margin-right:auto; margin-left:auto; width:99%; max-width:1000px;">
+
+<div class="pc-menu" style="margin-left : auto; margin-right : auto; margin-top:5px;">
+
+<ul style="margin-left : auto; margin-right : auto; list-style-type : none; width : 721px; overflow : hidden; font-size:13px; margin-top : 0px; margin-bottom : 0px; padding-top : 0px; padding-left : 0px; padding-right : 0px; padding-bottom : 0px;font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;line-height:130%;">
+
+<li style="background-color:#ffdbff;text-align : center; width : 141px; float : left; border-left: 1px solid #666666;border-bottom: 1px solid #666666;border-top: 1px solid #666666; border-top-left-radius: 15px; border-bottom-left-radius:15px;">
+<a onmouseover="this.style.backgroundColor='#ffcc33'" onmouseout="this.style.backgroundColor='#ffdbff'" style="text-decoration : none; color : black; padding-top : 4px; padding-bottom : 2px; display : block;border-top-left-radius: 15px; border-bottom-left-radius:15px;"  href="https://magradacatalunya.com/">MUNDIÑOL<br />TOP PAGE</a></li>
+
+<li style="background-color:#ffdbff;text-align : center; width : 143px; float : left; border-left: 1px solid #666666;border-bottom: 1px solid #666666;border-top: 1px solid #666666;"><a onmouseover="this.style.backgroundColor='#ffcc33'" onmouseout="this.style.backgroundColor='#ffdbff'" style="text-decoration : none; color : black; padding-top : 4px; padding-bottom : 2px; display : block;"  href="https://mundinyol.neocities.org/">QUEDADAS<br />DE MUNDIÑOL</a></li>
+
+<li style="background-color:#ffdbff; text-align : center; width : 142px; float : left; border-left: 1px solid #666666;border-bottom: 1px solid #666666;border-top: 1px solid #666666;"><a onmouseover="this.style.backgroundColor='#ffcc33'" onmouseout="this.style.backgroundColor='#ffdbff'" style="text-decoration : none; color : black; padding-top : 4px; padding-bottom : 2px; display : block;"  href="https://mundinyol.neocities.org/youtube.html">VÍDEOS<br />EN YOU TUBE</a></li>
+
+<li style="background-color:#ffdbff;text-align : center; width : 143px; float : left; border-left: 1px solid #666666;border-bottom: 1px solid #666666;border-top: 1px solid #666666;"><a onmouseover="this.style.backgroundColor='#ffcc33'" onmouseout="this.style.backgroundColor='#ffdbff'" style="text-decoration : none; color : black; padding-top : 4px; padding-bottom : 2px; display : block;"  href="https://mundinyol-bcn.github.io/barcelona/">SOBRE MUNDIÑOL<br />EN GITHUB</a></li>
+
+
+<li style="background-color:#ffdbff;text-align : center; width : 141px; float : left; border-left: 1px solid #666666;border-bottom: 1px solid #666666;border-right: 1px solid #666666;border-bottom: 1px solid #666666;border-top: 1px solid #666666;border-top-right-radius: 15px; border-bottom-right-radius:15px;"><a onmouseover="this.style.backgroundColor='#ffcc33'" onmouseout="this.style.backgroundColor='#ffdbff'" style="text-decoration : none; color : black; padding-top : 4px; padding-bottom : 2px; display : block; border-top-right-radius: 15px; border-bottom-right-radius:15px;"  href="https://magradacatalunya.com/bcn/contacto/">FORMULARIO<br /> DE CONTACTO</a></li>
+   
+</ul>
+</div>
+
+<div class="sp-menu" style="margin-left : auto; margin-right : auto; margin-bottom:0px; margin-top:0px; background-color:#FF9900; padding-top:8px; font-size:120%; border-radius:20px;">
+
+
+<a href="javascript:void(0)" id="category_折りたたみA" onclick="show('折りたたみA');"><span style="font-size:105%; font-weight:bold; font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;">&emsp;&equiv; MENU</span></a>
+<div id="layer_折りたたみA" style="display: none;position:relative;margin-left:15pt" class="close">
+<p><a href="https://magradacatalunya.com/">MUNDIÑOL TOP PAGE</a></p>
+<p><a href="https://mundinyol.neocities.org/">QUEDADAS DE MUNDIÑOL</a></p>
+<p><a href="https://mundinyol.neocities.org/youtube.html">VÍDEOS EN YOU TUBE</a></p>
+<p><a href="https://mundinyol-bcn.github.io/barcelona/">SOBRE MUNDIÑOL</a></p>
+<p><a href="https://magradacatalunya.com/bcn/contacto/">FORMULARIO DE CONTACTO</a></p>
+
+</div>
+
+</div>
+
+
+<h1 style="text-align:center;">SPECIAL OFFERS</h1>
+
+<p>Only 10 handmade necklaces with natural gems from Ping Divina are going for a special price — grab yours while you can!</p>
+
+<p style="text-align:center; font-size:85%; font-weight:bold;">Independencia 276, 08026 Barcelona<br>WhatsApp +34 665165267</p>
+
+<div id="my-store-66353842"></div>
+<div>
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?66353842&data_platform=code&data_date=2024-02-23" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-66353842");</script>
+</div>
+
+
+<p style="text-align:center;"><a href="https://www.etsy.com/es/shop/PingDivina" target="_blank"><img src="https://mundinyol.com/BANNER1.jpg" alt="" style="width:99%; border-radius:20px;"></a></p>
+
+
+<div style="margin-bottom:18px; background-color:#fbdade; border-radius:20px; width:95%; margin-left:auto; margin-right:auto; padding:0% 2% 0% 2%; color:#663300;">
+<p style="padding-top:8px; font-size:130%; font-weight:bold; color: #c71585; text-align:center;">MUNDIÑOL SHOP - PING DIVINA</p>
+<div class="flexbox" style="margin-top:18px; margin-bottom:18px;">
+<div class="box1" style="vertical-align: top; text-align:center;">
+
+<div class="slideshow-container2" id="diapositiva" style="border-radius:20px;">
+    </div>
+
+    <div class="controls">
+        <button onclick="prevDiapositiva()">BEFORE</button>
+        <button onclick="stopDiapositiva()">STOP</button>
+        <button onclick="startDiapositiva()">RESTART</button>
+     </div>
+
+     <!-- 外部JavaScriptファイルを読み込み -->
+    <script src="https://mundinyol.com/kei/diapositiva.js"></script>
+<br>
+</div>
+
+<div class="box2" style="vertical-align: top;">
+
+<p><strong>Ping Divina</strong> makes handmade necklaces with natural stones. Pop by and check out her creations whenever you fancy! You can also buy them online.</p>
+
+If you like, you can make a provisional order and she’ll bring it to the <strong>Mundiñol Meetups</strong> in Barcelona. That way, you can see it in person and decide if you want to keep it or not.
+
+<p style=" text-align:center;"><a class="adsquare_btn" href="https://mundinyol.com/">&nbsp;&emsp;TOP PAGE&emsp;&nbsp;</a>&emsp;<a class="adsquare_btn" href="https://mundinyol.com/shop.html">&nbsp;&emsp;OFFERS&emsp;&nbsp;</a></p>
+
+<p style=" text-align:center;"><a class="adsquare_btn" href="https://www.etsy.com/es/shop/PingDivina" target="_blank">&emsp;ETSY.COM&emsp;</a>&emsp;<a class="adsquare_btn" href="https://es.wallapop.com/app/user/pingj-pzp98r4gv963/" target="_blank">&ensp;WALLAPOP&ensp;</a></p>
+
+
+<p>Another option is to visit her workshop, which is between La Sagrera and Navas metro stops, and find the necklace that suits you best.</p>
+
+<p>Besides the necklaces you see online, she also has other accessories made with natural stones.</p>
+
+</div>
+</div>
+</div>
+
+<h1 style="text-align:center;">MUNDIÑOL MEETUPS</h1>
+
+<p>Whether you’re into Ping Divina’s creations or not, and whether you’re curious about the properties of gemstones or couldn’t care less… come along to the MUNDIÑOL meetups on Mondays, Wednesdays, and Fridays!</p>
+
+
+
+
+
+
+<div class="flexbox" style="margin-top:18px; margin-bottom:18px;">
+<div class="box1" style="vertical-align: top; text-align:center; background-color:#fbdade; border: solid 2px #ffd3a8; border-radius:20px; color:#663300;">
+
+
+<p style=" text-align:center;"><strong>Monday, 20:45 - 22:50</strong><br />
+<a style="font-weight: bold;" href="https://goo.gl/maps/ShUEN4WE8GgyMFNq5" target="_blank"><span style="color:navy;">The New Orleans</span></a> (Pere d'Artés 10)<br />
+Metro：Virrei Amat (L5)</p>
+
+<p style=" text-align:center;"><strong>Wednesday, 20:30 - 22:50</strong><br />
+<a style="font-weight: bold;" href="https://maps.app.goo.gl/Un5gyVraoXoM8jxv7" target="_blank"><span style="color:navy;">Viena Pelayo</span></a> (Pelai 16)<br />
+Metro：Universitat (L1, L2)</p>
+
+<p style=" text-align:center;"><strong>Friday, 21:00 - 23:30</strong><br />
+<a style="font-weight: bold;" href="https://goo.gl/maps/VGyrnr64TYb2VPXF8" target="_blank" rel="noopener noreferrer"><span style="color:navy;">Alex Bar Restaurant</span></a> (Còrsega 170)<br />
+Metro：Hospital Clinic (L5)</p>
+
+<p style=" text-align:center;"><a class="adsquare_btn" href="https://www.meetup.com/es-ES/barcelona_meetings/events/" target="blank">NEXT MEETUPS</a></p>
+
+</div>
+<div class="box2" style="vertical-align: top;" lang="ja">
+
+<div class="slideshow-container" id="slideshow" style="border-radius:20px;">
+    </div>
+
+    <div class="controls">
+        <button onclick="prevSlide()">BEFORE</button>
+        <button onclick="stopSlideShow()">STOP</button>
+        <button onclick="startSlideShow()">RESTART</button>
+        		  <button id="controlButton">MUSIC ON</button>
+    </div>
+    <!-- 外部JavaScriptファイルを読み込み -->
+    <script src="https://magradacatalunya.com/barcelona/slideshow.js"></script>
+	<!-- 再生用のオーディオ要素 -->
+    <audio id="backgroundMusic" loop></audio>
+    <!-- 外部スクリプトをロード -->
+    <script src="https://magradacatalunya.com/A-diapositiva/music.js"></script>
+
+</div>
+</div>
+
+<p>You’ll meet people from all over Europe and Asia who’ve come to Barcelona to learn Spanish and Catalan. Let’s make friends from all around the world!</p>
+
+<p style="text-align:center; font-size:120%;"><a class="adsquare_btn" href="https://www.meetup.com/barcelona_meetings/" target="_blank">JOIN MUNDIÑOL!<br><span style="font-size:90%;">and have a great time</span></a></p>
+
+
+<h1 style="text-align:center;">GUEST BOOK</h1>
+<p>Leave a comment about Ping Divina’s work, Mundiñol’s cultural activities, or the language exchanges. Go on, don’t be shy!</p>
+<div>
+<iframe class="my-gbook" src="https://mundinyol.com/Guest_Book/" scrolling="no" title="Guest Book"></iframe>
+</div>
+
+
+</div>
+
+
+<p style="text-align:center; font-size:70%">© 2009-2025 Ping Divina</p>
+
+</body>
+</html>
